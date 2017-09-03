@@ -8,9 +8,9 @@ Rails.application.routes.draw do
 
   get 'grapes', to: 'fruits#grapes'
 
-  get 'cat', to: 'fruits#cat'
+  get 'cat', to: 'animals#cat'
 
-  get 'dogs', to: 'fruits#dogs'
+  get 'dogs', to: 'animals#dogs'
 
 end
 
