@@ -6,6 +6,12 @@ Rails.application.routes.draw do
 
   get 'pear', to: 'fruits#pear'
 
+  get 'grapes', to: 'fruits#grapes'
+
+  get 'cat', to: 'fruits#cat'
+
+  get 'dogs', to: 'fruits#dogs'
+
 end
 
 
