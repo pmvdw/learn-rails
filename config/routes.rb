@@ -8,6 +8,10 @@ Rails.application.routes.draw do
 
   get 'apple/green', to: 'apples#green'
 
+  get 'apple/green/big', to: 'green_apples#big'
+
+  get 'apple/green/small', to: 'green_apples#small'
+
   get 'pear', to: 'fruits#pear'
 
   get 'grapes', to: 'fruits#grapes'
@@ -15,9 +19,4 @@ Rails.application.routes.draw do
   get 'cat', to: 'animals#cat'
 
   get 'dogs', to: 'animals#dogs'
-
-  get 'apple/green/big', to: 'green_apples#big'
-
-  get 'apple/green/small', to: 'green_apples#small'
-
 end
