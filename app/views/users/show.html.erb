@@ -1,4 +1,18 @@
-name: <%= @user.name %>
-email: <%= @user.email %>
-age: <%= @user.age %>
-id: <%= @user.id %>
+<h2>Users show page for <%= @user.name %></h2>
+
+<ul>
+  <li>
+    name: <%= @user.name %>
+  </li>
+  <li>
+    email: <%= @user.email %>
+  </li>
+  <li>
+    age: <%= @user.age %>
+  </li>
+  <li>
+    id: <%= @user.id %>
+  </li>
+</ul>
+
+<%= link_to 'return to users index', '/users' %>
