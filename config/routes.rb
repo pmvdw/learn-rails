@@ -1,10 +1,12 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  root 'application#dog'
+  root 'application#index'
 
-  get 'red_apples', to: 'apples#red_apples'
+  get 'apple', to: 'fruits#apple'
 
-  get 'green_apples', to: 'apples#green_apples'
+  get 'apple/red', to: 'apples#red'
+
+  get 'apple/green', to: 'apples#green'
 
   get 'pear', to: 'fruits#pear'
 

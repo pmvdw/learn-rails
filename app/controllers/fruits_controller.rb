@@ -6,4 +6,7 @@ class FruitsController < ApplicationController
   def grapes
   end
 
+  def apple
+  end
+
 end
