@@ -19,4 +19,6 @@ Rails.application.routes.draw do
   get 'cat', to: 'animals#cat'
 
   get 'dogs', to: 'animals#dogs'
+
+  get 'ladfh', to: 'eohf#perd'
 end
