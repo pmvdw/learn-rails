@@ -19,5 +19,5 @@ Rails.application.routes.draw do
 
   # Deleting a user
   get'users/:id/delete', to: 'users#delete' #display a page to delete a user
-  destroy 'users', to: 'users#destroy' #destroy the user record in the database
+  delete 'users', to: 'users#destroy' #destroy the user record in the database
 end
