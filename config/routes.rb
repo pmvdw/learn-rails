@@ -16,9 +16,8 @@ Rails.application.routes.draw do
 
   get 'dogs', to: 'animals#dogs'
 
+  get 'apple/green/big', to: 'green_apples#big'
+
+  get 'apple/green/small', to: 'green_apples#small'
+
 end
-
-
-
-
-# root 'controller_name#action_name'
