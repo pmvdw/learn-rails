@@ -21,4 +21,12 @@ Rails.application.routes.draw do
   get 'dogs', to: 'animals#dogs'
 
   get 'ladfh', to: 'eohf#perd'
+
+  get 'xxx', to: 'yyy#zzz'
+
+  get 'news', to: 'articles#recent'
+
+  get 'user/pictures', to: 'photos#wall'
+
+  get 'reports/tps/month/january', to: 'sales_reports#tps'
 end
